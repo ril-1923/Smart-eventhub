@@ -1,0 +1,2 @@
+export interface Ev{id:number;title:string;description:string;category:string;date:string;time:string;location:string;venue:string;address:string;price:number;capacity:number;registered:number;rating:number;organizer:string;image:string;tags:string[];status?:string;featured:boolean;trending:boolean}
+export interface Booking{id:string;eventId:number;ticket:string;qty:number;total:number;name:string;status:'Upcoming'|'Completed'|'Cancelled';created:string}
